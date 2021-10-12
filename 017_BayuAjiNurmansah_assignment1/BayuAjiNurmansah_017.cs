@@ -175,7 +175,10 @@ public class Assign
                     }
 
                     Console.WriteLine("Hasil : {0}", str1);
-                    Console.Write("\n");
+                    if (str1 == str)
+                        Console.WriteLine("Ini palindrom\n");
+                    else
+                        Console.WriteLine("Ini Bukan palindrom\n");
                     break;
                 }
                 case 7:{
