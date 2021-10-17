@@ -2,7 +2,7 @@ Nama Peserta 	: Bayu Aji Nurmansah
 Kode Peserta	: FSDO001ONL017
 
 
-link github 	:
+link github 	: https://github.com/bayuajinurmnsh/Assignment_OCBC/tree/main/017_BayuAjiNurmansah_assignment3
 
 1. Buka project pada visual studio community / visual studio code
 
