@@ -1,0 +1,54 @@
+Nama Peserta 	: Bayu Aji Nurmansah
+Kode Peserta	: FSDO001ONL017
+
+
+link github 	:
+
+1. Buka project pada visual studio community / visual studio code
+
+2. Run Aplikasi
+
+2a. Run aplikasi dengan fungsi start yang terdapat di visual studio community atau 
+       dengan menekan tombol F5
+2b. Jika menggunakan visual studio code, dapat di run dengan mengetikkan dotnet run
+
+3. Secara default ketika program sudah berjalan maka akan langsung mengakses URL Api
+
+3a. [Untuk mendapatkan seluruh data Movies]
+    	https://localhost:5001/api/movies
+
+3b. [Untuk mendapatkan data Movies berdasarkan id]
+ 	https://localhost:5001/api/movies/{id}
+contoh: https://localhost:5001/api/movies/2
+
+3c. [Untuk insert data Movies ]
+	- Buka Postman dan ketikkan url https://localhost:5001/api/movies
+	- Ganti method menjadi POST
+	- Lalu pilih Body > raw > JSON
+	- untuk masukkan data ketikkan format JSON berikut :
+	  {
+		"name": "Judul",
+		"genre": "Genre",
+		"duration": "durasi",
+		"releaseDate": "2011-07-05 12:00:00 AM"
+	  }
+
+3d. [Untuk update data Movies]
+	- Buka Postman dan ketikkan url https://localhost:5001/api/movies
+	- Ganti method menjadi PUT
+	- Lalu pilih Body > raw > JSON
+	- untuk masukkan data ketikkan format JSON berikut :
+	  {
+		"id" : 1,
+		"name": "Judul",
+		"genre": "Genre",
+		"duration": "durasi",
+		"releaseDate": "2011-07-05 12:00:00 AM"
+	  }
+
+3e. [Untuk delete data Movies]
+	- Buka Postman dan ketikkan url https://localhost:5001/api/movies
+	- Ganti Method Menjadi Delete
+	- Pada Url tambahkan data berikut :
+		  https://localhost:5001/api/movies/{id}
+	  contoh: https://localhost:5001/api/movies/2
